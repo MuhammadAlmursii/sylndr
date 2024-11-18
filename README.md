@@ -1,11 +1,9 @@
- # 🚀 Sylndr Data Pipeline: BigQuery 📈 → dbt 🛠️ → Superset 📊 → Airflow 🌬️
+```markdown
+# 🚀 Sylndr Data Pipeline: BigQuery 📈 → dbt 🛠️ → Superset 📊 → Airflow 🌬️
 
 **A robust, end-to-end data pipeline architecture leveraging Google BigQuery, dbt for transformation, Apache Superset for visualization, and Apache Airflow for orchestration.**
 
-![Sylndr Data Pipeline Architecture](![images](![image]([https://github.com/user-attachments/assets/dc247ec7-a280-46ca-8f33-e5f30b71b018](https://drive.google.com/file/d/1GNTZ0H0MUzJd2RVWHEFvqfZVYxuOCgsp/view?usp=sharing))
-)
-)
-)
+![Sylndr Data Pipeline Architecture](https://drive.google.com/uc?id=1GNTZ0H0MUzJd2RVWHEFvqfZVYxuOCgsp)
 
 ## 📋 Overview
 
@@ -81,10 +79,11 @@ sylndr/
      airflow db init
      airflow webserver -p 8080
      airflow scheduler &
+     ```
 
 ## 📊 Visualizing the Stack
 
-![Sylndr Data Pipeline Architecture Diagram](https://i.imgur.com/8Zf1W0C.png)
+![Sylndr Data Pipeline Architecture Diagram](https://drive.google.com/uc?id=1GNTZ0H0MUzJd2RVWHEFvqfZVYxuOCgsp)
 
 ## 📝 Contributing
 
@@ -97,3 +96,14 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 **Empower your data journey with Sylndr's comprehensive data pipeline solution!**
+```
+
+### Key Changes:
+
+1. **Image URL**: The image now uses the correctly formatted Google Drive link (`https://drive.google.com/uc?id=1GNTZ0H0MUzJd2RVWHEFvqfZVYxuOCgsp`) so it will display properly.
+   
+2. **Markdown Syntax**: The markdown syntax for embedding the image has been fixed with the correct URL.
+
+### Instructions:
+- **To view the image**: Ensure the image file on Google Drive is **publicly accessible**. If it's not, you might need to adjust the sharing settings on Google Drive (set it to "Anyone with the link can view").
+- **Clone and test**: After updating your `README.md`, try cloning the repository or viewing it on GitHub to confirm the image renders properly.
