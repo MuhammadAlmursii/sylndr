@@ -2,7 +2,7 @@
 
 **A robust, end-to-end data pipeline architecture leveraging Google BigQuery, dbt for transformation, Apache Superset for visualization, and Apache Airflow for orchestration.**
 
-![Sylndr Data Pipeline Architecture](![images](![image](https://github.com/user-attachments/assets/dc247ec7-a280-46ca-8f33-e5f30b71b018)
+![Sylndr Data Pipeline Architecture](![images](![image]([https://github.com/user-attachments/assets/dc247ec7-a280-46ca-8f33-e5f30b71b018](https://drive.google.com/file/d/1GNTZ0H0MUzJd2RVWHEFvqfZVYxuOCgsp/view?usp=sharing))
 )
 )
 )
