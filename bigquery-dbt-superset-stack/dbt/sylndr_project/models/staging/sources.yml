@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: input_src
+    database: scenic-style-421412
+    schema: sylndr_task
+    tables:
+      - name: Inspection_Visit__c
+      - name: Account
+      - name: Status__c
+      - name: Inspection_Visit__History
+      - name: Inspector__c
+      

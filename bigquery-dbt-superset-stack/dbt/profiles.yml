@@ -1,0 +1,11 @@
+  
+sylndr_project:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: scenic-style-421412  # Your Google Cloud project
+      dataset: sylndr_task  # BigQuery dataset
+      threads: 1
+      keyfile: C:/Users/mohamed.almursi/.dbt/keyfile.json  # Path to keyfile

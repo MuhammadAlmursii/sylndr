@@ -1,0 +1,87 @@
+[0m15:03:33.624718 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB71570BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB70553100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB70552F50>]}
+
+
+============================== 15:03:33.628822 | 9a690488-f33a-442a-91e6-494c0085146f ==============================
+[0m15:03:33.628822 [info ] [MainThread]: Running with dbt=1.7.9
+[0m15:03:33.628822 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\mohamed.almursi\\Downloads\\Sylndr Evaluation Case Study-20241111T140900Z-001\\Evaluation Case Study\\New folder\\bigquery-dbt-superset-stack', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:03:33.628822 [info ] [MainThread]: dbt version: 1.7.9
+[0m15:03:33.628822 [info ] [MainThread]: python version: 3.10.0rc2
+[0m15:03:33.628822 [info ] [MainThread]: python path: C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\python.exe
+[0m15:03:33.628822 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m15:03:33.628822 [error] [MainThread]: Encountered an error:
+[Errno 13] Permission denied: 'C:\\Users\\mohamed.almursi\\Downloads\\Sylndr Evaluation Case Study-20241111T140900Z-001\\Evaluation Case Study\\New folder\\bigquery-dbt-superset-stack\\profiles.yml'
+[0m15:03:33.649598 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 91, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\main.py", line 444, in debug
+    results = task.run()
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\debug.py", line 123, in run
+    load_profile_status: SubtaskStatus = self._load_profile()
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\debug.py", line 203, in _load_profile
+    raw_profile_data = load_yaml_text(dbt.clients.system.load_file_contents(self.profile_path))
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\clients\system.py", line 97, in load_file_contents
+    with open(path, "rb") as handle:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\mohamed.almursi\\Downloads\\Sylndr Evaluation Case Study-20241111T140900Z-001\\Evaluation Case Study\\New folder\\bigquery-dbt-superset-stack\\profiles.yml'
+
+[0m15:03:33.656594 [debug] [MainThread]: Command `dbt debug` failed at 15:03:33.656594 after 0.17 seconds
+[0m15:03:33.657460 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB71570BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB70553010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CB70553310>]}
+[0m15:03:33.657460 [debug] [MainThread]: Flushing usage events
+[0m15:09:01.105256 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AA7730C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AA67131F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AA6713010>]}
+
+
+============================== 15:09:01.108968 | def5d14b-17f8-460b-8e3d-2491c3767005 ==============================
+[0m15:09:01.108968 [info ] [MainThread]: Running with dbt=1.7.9
+[0m15:09:01.109957 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\mohamed.almursi\\Downloads\\Sylndr Evaluation Case Study-20241111T140900Z-001\\Evaluation Case Study\\New folder\\bigquery-dbt-superset-stack', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:09:01.110955 [info ] [MainThread]: dbt version: 1.7.9
+[0m15:09:01.110955 [info ] [MainThread]: python version: 3.10.0rc2
+[0m15:09:01.111956 [info ] [MainThread]: python path: C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\python.exe
+[0m15:09:01.111956 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m15:09:01.112957 [error] [MainThread]: Encountered an error:
+[Errno 13] Permission denied: 'C:\\Users\\mohamed.almursi\\Downloads\\Sylndr Evaluation Case Study-20241111T140900Z-001\\Evaluation Case Study\\New folder\\bigquery-dbt-superset-stack\\profiles.yml'
+[0m15:09:01.114955 [error] [MainThread]: Traceback (most recent call last):
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 91, in wrapper
+    result, success = func(*args, **kwargs)
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\requires.py", line 76, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\cli\main.py", line 444, in debug
+    results = task.run()
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\debug.py", line 123, in run
+    load_profile_status: SubtaskStatus = self._load_profile()
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\task\debug.py", line 203, in _load_profile
+    raw_profile_data = load_yaml_text(dbt.clients.system.load_file_contents(self.profile_path))
+  File "C:\Users\mohamed.almursi\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\clients\system.py", line 97, in load_file_contents
+    with open(path, "rb") as handle:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\mohamed.almursi\\Downloads\\Sylndr Evaluation Case Study-20241111T140900Z-001\\Evaluation Case Study\\New folder\\bigquery-dbt-superset-stack\\profiles.yml'
+
+[0m15:09:01.119251 [debug] [MainThread]: Command `dbt debug` failed at 15:09:01.118243 after 0.13 seconds
+[0m15:09:01.119251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AA7730C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AA67130D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AA67133A0>]}
+[0m15:09:01.120649 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2024-11-16 18:18:08.107315 | ee1f0b88-4725-4cdf-bfb5-57fe73fb5a9e ==============================
+18:18:08.107315 [info ] [MainThread]: Running with dbt=1.0.9
+18:18:08.107315 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.debug.DebugTask'>, config_dir=False, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='C:\\Users\\mohamed.almursi\\.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='debug', write_json=None)
+18:18:08.107315 [debug] [MainThread]: Tracking: tracking
+18:18:08.107315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3DB42D8C8>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3DB405188>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3DB4051C8>]}
+18:18:08.123073 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+18:18:08.129993 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+18:18:13.811987 [debug] [MainThread]: Executing "git --help"
+18:18:13.919735 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+18:18:13.919735 [debug] [MainThread]: STDERR: "b''"
+18:18:13.919735 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3DB473308>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3DC8DD5C8>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3DCA571C8>]}
+
+
+============================== 2024-11-18 05:31:03.660237 | f8cca62e-87a2-4a0f-80b4-7bc0d6169559 ==============================
+05:31:03.660237 [info ] [MainThread]: Running with dbt=1.0.9
+05:31:03.660237 [debug] [MainThread]: running dbt with arguments Namespace(cls=<class 'dbt.task.debug.DebugTask'>, config_dir=False, debug=None, defer=None, event_buffer_size=None, fail_fast=None, log_cache_events=False, log_format=None, partial_parse=None, printer_width=None, profile=None, profiles_dir='C:\\Users\\mohamed.almursi\\.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='debug', write_json=None)
+05:31:03.660237 [debug] [MainThread]: Tracking: tracking
+05:31:03.660237 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B347A80488>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B347A80F88>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B347A80E08>]}
+05:31:03.666742 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+05:31:03.676071 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.snowflake'
+05:31:04.267418 [debug] [MainThread]: Executing "git --help"
+05:31:04.337406 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+05:31:04.337942 [debug] [MainThread]: STDERR: "b''"
+05:31:04.341755 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B347ACB888>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B347ACB708>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B347ACBA88>]}
+05:31:10.566100 [warn ] [MainThread]: Error sending message, disabling tracking

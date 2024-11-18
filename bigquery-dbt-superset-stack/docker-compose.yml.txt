@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  dbt:
+    image: fishtownanalytics/dbt:1.0.0
+    container_name: dbt_new
+    volumes:
+      - ./dbt:/dbt/
+      - ./credentials:/credentials
+    environment:
+      - GOOGLE_APPLICATION_CREDENTIALS=/credentials/keyfile.json
+    working_dir: /dbt
+    entrypoint: ["tail", "-f", "/dev/null"]
+
+  superset:
+    image: apache/superset:latest
+    container_name: superset_new  # Renamed container to avoid conflict
+    ports:
+      - "8088:8088"
+    environment:
+      SUPERSET_SECRET_KEY: "admin"  # Replace with a secure key
+      FLASK_APP: "superset"
+    volumes:
+      - ./superset_home:/app/superset_home
+    command: >
+      superset db upgrade &&
+      superset fab create-admin --username admin --firstname Superset --lastname Admin --email admin@example.com --password admin &&
+      superset init &&
+      superset run -h 0.0.0.0 -p 8088 --with-threads --reload --debugger
+
+  superset-init:
+    image: apache/superset:latest
+    depends_on:
+      - superset
+    entrypoint:
+      - /bin/sh
+      - -c
+      - |
+        superset db upgrade &&
+        superset fab create-admin --username admin --firstname Admin --lastname User --email admin@example.com --password admin &&
+        superset init
+
+volumes:
+  dbt:
+  superset_home:
