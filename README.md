@@ -91,4 +91,4 @@ We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING
 
 ## 📜 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [M.ALMURSI](LICENSE).
