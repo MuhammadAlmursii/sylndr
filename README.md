@@ -1,4 +1,3 @@
-```markdown
 # 🚀 Sylndr Data Pipeline: BigQuery 📈 → dbt 🛠️ → Superset 📊 → Airflow 🌬️
 
 **A robust, end-to-end data pipeline architecture leveraging Google BigQuery, dbt for transformation, Apache Superset for visualization, and Apache Airflow for orchestration.**
@@ -42,68 +41,15 @@ sylndr/
 │   └── requirements.txt
 │
 └── README.md           # This document
-```
 
-## 🎯 Key Features
+🎯 Key Features
+Automated Data Ingestion: Streamline data from various sources into BigQuery.
+Transformative Workflows: Utilize dbt to clean, transform, and model data.
+Interactive Data Visualization: Create dynamic and insightful dashboards with Superset.
+Robust Orchestration: Schedule and monitor pipeline executions with Airflow.
 
-- **Automated Data Ingestion**: Streamline data from various sources into BigQuery.
-- **Transformative Workflows**: Utilize dbt to clean, transform, and model data.
-- **Interactive Data Visualization**: Create dynamic and insightful dashboards with Superset.
-- **Robust Orchestration**: Schedule and monitor pipeline executions with Airflow.
+🚀 Getting Started
+Clone the Repository:
 
-## 🚀 Getting Started
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/MuhammadAlmursii/sylndr.git
-   cd sylndr
-   ```
-
-2. **Set Up Environment Variables**:
-   Create a `.env` file to store sensitive information and configurations.
-
-3. **Initialize and Run Services**:
-   - **dbt**:
-     ```bash
-     cd dbt
-     dbt init
-     ```
-   - **Superset**:
-     ```bash
-     cd superset
-     docker-compose up -d
-     ```
-   - **Airflow**:
-     ```bash
-     cd airflow
-     airflow db init
-     airflow webserver -p 8080
-     airflow scheduler &
-     ```
-
-## 📊 Visualizing the Stack
-
-![Sylndr Data Pipeline Architecture Diagram](https://drive.google.com/uc?id=1GNTZ0H0MUzJd2RVWHEFvqfZVYxuOCgsp)
-
-## 📝 Contributing
-
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-**Empower your data journey with Sylndr's comprehensive data pipeline solution!**
-```
-
-### Key Changes:
-
-1. **Image URL**: The image now uses the correctly formatted Google Drive link (`https://drive.google.com/uc?id=1GNTZ0H0MUzJd2RVWHEFvqfZVYxuOCgsp`) so it will display properly.
-   
-2. **Markdown Syntax**: The markdown syntax for embedding the image has been fixed with the correct URL.
-
-### Instructions:
-- **To view the image**: Ensure the image file on Google Drive is **publicly accessible**. If it's not, you might need to adjust the sharing settings on Google Drive (set it to "Anyone with the link can view").
-- **Clone and test**: After updating your `README.md`, try cloning the repository or viewing it on GitHub to confirm the image renders properly.
+git clone https://github.com/MuhammadAlmursii/sylndr.git
+cd sylndr
