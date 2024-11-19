@@ -1,4 +1,3 @@
-```markdown
 # 🚀 Sylndr Data Pipeline: BigQuery 📈 → dbt 🛠️ → Superset 📊 → Airflow 🌬️
 
 **A robust, end-to-end data pipeline architecture leveraging Google BigQuery, dbt for transformation, Apache Superset for visualization, and Apache Airflow for orchestration.**
@@ -42,7 +41,6 @@ sylndr/
 │   └── requirements.txt
 │
 └── README.md           # This document
-```
 
 ## 🎯 Key Features
 
