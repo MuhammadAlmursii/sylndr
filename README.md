@@ -1,3 +1,4 @@
+```markdown
 # 🚀 Sylndr Data Pipeline: BigQuery 📈 → dbt 🛠️ → Superset 📊 → Airflow 🌬️
 
 **A robust, end-to-end data pipeline architecture leveraging Google BigQuery, dbt for transformation, Apache Superset for visualization, and Apache Airflow for orchestration.**
@@ -41,22 +42,22 @@ sylndr/
 │   └── requirements.txt
 │
 └── README.md           # This document
+```
 
+## 🎯 Key Features
 
+- **Automated Data Ingestion**: Streamline data from various sources into BigQuery.
+- **Transformative Workflows**: Utilize dbt to clean, transform, and model data.
+- **Interactive Data Visualization**: Create dynamic and insightful dashboards with Superset.
+- **Robust Orchestration**: Schedule and monitor pipeline executions with Airflow.
 
-🎯 Key Features
-Automated Data Ingestion: Streamline data from various sources into BigQuery.
-Transformative Workflows: Utilize dbt to clean, transform, and model data.
-Interactive Data Visualization: Create dynamic and insightful dashboards with Superset.
-Robust Orchestration: Schedule and monitor pipeline executions with Airflow.
-🚀 Getting Started
+## 🚀 Getting Started
 
 1. **Clone the Repository**:
-
-     ```bash
-      git clone https://github.com/MuhammadAlmursii/sylndr.git
-      cd sylndr
-     ```
+   ```bash
+   git clone https://github.com/MuhammadAlmursii/sylndr.git
+   cd sylndr
+   ```
 
 2. **Set Up Environment Variables**:
    Create a `.env` file to store sensitive information and configurations.
