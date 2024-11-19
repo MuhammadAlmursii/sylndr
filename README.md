@@ -1,9 +1,9 @@
 
-# 🚀 Sylndr Data Pipeline: BigQuery 📈 → dbt 🛠️ → Superset 📊 → Airflow 🌬️
+#  Sylndr Data Pipeline: BigQuery 📈 → dbt 🛠️ → Superset  → Airflow 
 
 **A robust, end-to-end data pipeline architecture leveraging Google BigQuery, dbt for transformation, Apache Superset for visualization, and Apache Airflow for orchestration.**
 
-![Sylndr Data Pipeline Architecture](https://drive.google.com/uc?id=1GNTZ0H0MUzJd2RVWHEFvqfZVYxuOCgsp)
+![Sylndr Data Pipeline Architecture](https://drive.google.com/uc?id=1Ucxe8XmGi96SyRIiWc36eDqnsGV88ikf)
 
 ## 📋 Overview
 
@@ -13,6 +13,8 @@ The Sylndr Data Pipeline is designed to efficiently manage, transform, visualize
 - **dbt (data build tool)** for data transformation and modeling.
 - **Apache Superset** for interactive data exploration and visualization.
 - **Apache Airflow** for workflow automation and orchestration.
+
+![Sylndr Data Pipeline Architecture](https://drive.google.com/uc?id=1GNTZ0H0MUzJd2RVWHEFvqfZVYxuOCgsp)
 
 ## 🛠️ Technologies Used
 
@@ -83,6 +85,12 @@ sylndr/
 
 ## 📊 Visualizing the Stack
 
+- ###  Bigquery
+
+![Sylndr Data Pipeline Architecture Diagram](https://drive.google.com/uc?id=11qAsGsMIwr-rj98ro0mT7okH7hvD9eCy)
+
+- ###  Superset
+
 ![Sylndr Data Pipeline Architecture Diagram](https://drive.google.com/uc?id=1WDI9aGuSgI6XT3cPy9ipBfz1j1XzSjpA)
 
 ## 📝 Contributing
@@ -91,4 +99,4 @@ We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING
 
 ## 📜 License
 
-This project is licensed under the [M.ALMURSI](LICENSE).
+This project is licensed under the [M.ALMURSII](LICENSE).
