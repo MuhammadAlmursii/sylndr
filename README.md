@@ -48,12 +48,13 @@ Transformative Workflows: Utilize dbt to clean, transform, and model data.
 Interactive Data Visualization: Create dynamic and insightful dashboards with Superset.
 Robust Orchestration: Schedule and monitor pipeline executions with Airflow.
 🚀 Getting Started
-Clone the Repository:
 
-   ```bash
-   git clone https://github.com/MuhammadAlmursii/sylndr.git
-   cd sylndr
-   ```
+1. **Clone the Repository**:
+
+     ```bash
+      git clone https://github.com/MuhammadAlmursii/sylndr.git
+      cd sylndr
+     ```
 
 2. **Set Up Environment Variables**:
    Create a `.env` file to store sensitive information and configurations.
