@@ -42,16 +42,14 @@ sylndr/
 │
 └── README.md           # This document
 
-## 🎯 Key Features
+🎯 Key Features
+Automated Data Ingestion: Streamline data from various sources into BigQuery.
+Transformative Workflows: Utilize dbt to clean, transform, and model data.
+Interactive Data Visualization: Create dynamic and insightful dashboards with Superset.
+Robust Orchestration: Schedule and monitor pipeline executions with Airflow.
+🚀 Getting Started
+Clone the Repository:
 
-- **Automated Data Ingestion**: Streamline data from various sources into BigQuery.
-- **Transformative Workflows**: Utilize dbt to clean, transform, and model data.
-- **Interactive Data Visualization**: Create dynamic and insightful dashboards with Superset.
-- **Robust Orchestration**: Schedule and monitor pipeline executions with Airflow.
-
-## 🚀 Getting Started
-
-1. **Clone the Repository**:
    ```bash
    git clone https://github.com/MuhammadAlmursii/sylndr.git
    cd sylndr
