@@ -83,7 +83,7 @@ sylndr/
 
 ## 📊 Visualizing the Stack
 
-![Sylndr Data Pipeline Architecture Diagram](https://drive.google.com/uc?id=1GNTZ0H0MUzJd2RVWHEFvqfZVYxuOCgsp)
+![Sylndr Data Pipeline Architecture Diagram](https://drive.google.com/1WDI9aGuSgI6XT3cPy9ipBfz1j1XzSjpA)
 
 ## 📝 Contributing
 
@@ -92,18 +92,3 @@ We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-**Empower your data journey with Sylndr's comprehensive data pipeline solution!**
-```
-
-### Key Changes:
-
-1. **Image URL**: The image now uses the correctly formatted Google Drive link (`https://drive.google.com/uc?id=1GNTZ0H0MUzJd2RVWHEFvqfZVYxuOCgsp`) so it will display properly.
-   
-2. **Markdown Syntax**: The markdown syntax for embedding the image has been fixed with the correct URL.
-
-### Instructions:
-- **To view the image**: Ensure the image file on Google Drive is **publicly accessible**. If it's not, you might need to adjust the sharing settings on Google Drive (set it to "Anyone with the link can view").
-- **Clone and test**: After updating your `README.md`, try cloning the repository or viewing it on GitHub to confirm the image renders properly.
