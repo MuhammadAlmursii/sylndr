@@ -42,6 +42,8 @@ sylndr/
 │
 └── README.md           # This document
 
+
+
 🎯 Key Features
 Automated Data Ingestion: Streamline data from various sources into BigQuery.
 Transformative Workflows: Utilize dbt to clean, transform, and model data.
