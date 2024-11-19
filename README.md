@@ -83,7 +83,7 @@ sylndr/
 
 ## 📊 Visualizing the Stack
 
-![Sylndr Data Pipeline Architecture Diagram](https://drive.google.com/1WDI9aGuSgI6XT3cPy9ipBfz1j1XzSjpA)
+![Sylndr Data Pipeline Architecture Diagram](https://drive.google.com/uc?id=1WDI9aGuSgI6XT3cPy9ipBfz1j1XzSjpA)
 
 ## 📝 Contributing
 
